@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaisingIt.RecruitmentTest.D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6DE15BC5-F3AF-43D6-B1EA-B4481248D724}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaisingIt.RecruitmentTest.Tests.Integration", "src\RaisingIt.RecruitmentTest.Tests.Integration\RaisingIt.RecruitmentTest.Tests.Integration.csproj", "{A656066B-ABD4-4E95-8E5B-FC916DAC87F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +31,16 @@ Global
 		{F099B497-A652-4ED2-9E60-82642AEC5C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F099B497-A652-4ED2-9E60-82642AEC5C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F099B497-A652-4ED2-9E60-82642AEC5C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A656066B-ABD4-4E95-8E5B-FC916DAC87F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A656066B-ABD4-4E95-8E5B-FC916DAC87F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A656066B-ABD4-4E95-8E5B-FC916DAC87F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A656066B-ABD4-4E95-8E5B-FC916DAC87F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CBFCC473-1DC1-40D5-8491-DF08708FBADB} = {6DE15BC5-F3AF-43D6-B1EA-B4481248D724}
+		{A656066B-ABD4-4E95-8E5B-FC916DAC87F6} = {6DE15BC5-F3AF-43D6-B1EA-B4481248D724}
 	EndGlobalSection
 EndGlobal

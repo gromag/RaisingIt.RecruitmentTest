@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using ExpectedObjects;
 using Flurl;
@@ -46,7 +47,13 @@ namespace RaisingIt.RecruitmentTest.Tests.Unit.Domain.Campaigns
             // given
             var expectedResult = new[]
             {
-                new Campaign()
+                new Campaign
+                {
+                    Description = "test-desc",
+                    Goal = 324234,
+                    Guid = Guid.NewGuid(),
+                    Name = "some-name"
+                }
             };
 
             _httpTest.RespondWithJson(expectedResult);
