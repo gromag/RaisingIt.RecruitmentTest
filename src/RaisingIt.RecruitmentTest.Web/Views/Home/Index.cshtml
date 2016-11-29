@@ -1,7 +1,7 @@
-﻿@model List<RaisingIt.RecruitmentTest.Web.Models.CampaignViewModel>
+﻿@model RaisingIt.RecruitmentTest.Domain.Campaigns.Campaign[]
 
 @{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Campaigns";
 }
 
 <h1>
@@ -13,15 +13,13 @@
     <div class="row">
         <div class="col-xs-12">
             <div class="panel panel-default">
-                <div class="panel-heading">NAME</div>
+                <div class="panel-heading">@campaign.Name</div>
                 <div class="panel-body">
                     <div class="col-xs-6">
-                        <strong>Rating Stars:</strong>
-                        SOMETHING
+                        @campaign.Description
                     </div>
                     <div class="col-xs-6">
-                        <strong>Cuisine Types:</strong>
-                      
+                        Goal: £@campaign.Goal
                     </div>
                 </div>
             </div>
